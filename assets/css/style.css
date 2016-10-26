@@ -13,8 +13,10 @@ html body {
 
 .headP {
 	text-align:center;
-	width: 75%;
+	width: 100%;
  	background: transparent;
+ 	float: left;
+ 	border: 0px;
 }
 
 .fG {
@@ -36,7 +38,7 @@ background: pink;
 	font-family: 'Amatic SC', cursive;
 	font-size: 40px;
 	text-align:center;
-	background: yellow
+	background: yellow;
  	
 
 }
@@ -60,11 +62,12 @@ button {
 	font-size: 18px;
 }
 
- p{
- 	font-size: 20px;
+.lE  {
+	font-size: 20px;
  	border: 2px white solid;
  	width: 20%;
  	background: white;
+
  }
 
 #attack {
