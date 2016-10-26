@@ -15,55 +15,84 @@
 <link  rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body background ="assets/images/bgimage.jpg">
+<body >
 <div class="container">
 	<div class="row">
 		<div id=class="col-lg-12 characters">
-			<img src="assets/images/home.jpg" alt="Homer" height="42" width="42">
-			<img src="assets/images/marge.jpg" alt= "Marge" height="42" width="42">
-			<img src="assets/images/peter.jpg" alt="Peter" height="42" width="42">
-			<img src="assets/images/louis.jpg" alt="Louis" height="42" width="42">
+			<div  class="character" id="Homer">
+				<div>
+					Homer
+				</div>
+
+				<img src="assets/images/home.jpg" alt="Homer" height="42" width="42">
+				<div id="Homer" class="hp">100</div>
+					
+				</div>
+			</div>
+			<div class="character" id="Marge">
+				<div>
+					Marge
+				</div>
+				<img src="assets/images/marge.jpg" alt= "Marge" height="42" width="42">
+			<div id="Marge" class="hp">120</div>
+			</div>
+			<div  class="character" id="Peter">
+				<div>
+					Peter
+				</div>
+				<img src="assets/images/peter.jpg" alt="Peter" height="42" width="42">
+				<div id="Peter" class="hp">145</div>
+			</div>
+			<div class="character" id='Louis'>
+				<div>
+					Louis
+				</div>
+				<img src="assets/images/louis.jpg" alt="Louis" height="42" width="42">
+				<div id="Louis" class="hp">110</div>
+			</div>
 
 		</div>
 	</div>
 	<div class="row 2">
 		<div class="col-lg-12 yourCharacter">
-		<h1>Your Character</h1>
+		<p>Your Character</p>
 		</div>
 	</div>
 	<div class="row 3">
 		<div class="col-lg-12 enemAvail">
-		<h1>Enemies Available</h1>
+		<p>Enemies Available</p>
 		</div>
 	</div>
 	<div class="row 4">
 		<div class="col-lg-12 fightSec">
-		<h1>Your Character</h1>
+		<p>Fight Section</p>
+		<button id="attack">Attack</button>
 		</div>
 	</div>
-	<div class="row 5">
-		<div class="col-lg-12 attack">
-		<h1>Your Character</h1>
-		</div>
+	
 	</div>
 	<div class="row 6">
 		<div class="col-lg-12 defender">
-		<h1>Defender</h1>
+		<p>Defender</p>
 		</div>
 	</div>
 	<div class="row 7">
 		<div class="col-lg-12 damageText">
-		<h1>Your Character</h1>
+		<p>More Text</p>
 		</div>
 	</div>
 
-
+<div class="row 8">
+		<div class="col-lg-12 Restart">
+		<button>Restart</button>
+		</div>
+	</div>
 </div>
 
 
 
 
-<script  src="javascript/game.js" type="text/javascript"></script>
+<script  src="assets/javascript/game.js" type="text/javascript"></script>
 </body>
 
 </html>
